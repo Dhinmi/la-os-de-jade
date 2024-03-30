@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/respancivo.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <title>Laços de Jade</title>
+</head>
+<body>
+
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo barra.png" alt="logo laços de jade" width="150px" height="40px"></a>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#quem-somos" class="nav-link">Quem somos</a></li>
+                    <li class="nav-item"><a href="#nos-pets" class="nav-link">Nossos Pets</a></li>
+                    <li class="nav-item"><a href="#mural-pet" class="nav-link">Mural Pet</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-resocial">
+                <ul>
+                    <li><a href="https://www.instagram.com/lacosdejade_/?igsh=MTBvanpjYmk5eXR3dw%3D%3D" target="_blank" rel="noopener noreferrer"><img src="img/logo instagram.png" alt="logo instagram" width="35px"></a></li>
+                    <li><a href="https://wa.me/554891662834" target="_blank" rel="noopener noreferrer"><img src="img/logo whats.png" alt="logo whatszap" width="35px"></a></li>
+                    <li><a href="https://www.tiktok.com/@jadeecacau?_t=8l2YPWgpOYX&_r=1" target="_blank" rel="noopener noreferrer"><img src="img/tiktok.png" alt="logo tiktok" width="35px"></a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <img onclick="menuShow()" class="icon" src="img/menu.png" alt="">
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <div class="nav-list" id-="nav-lis">
+                    <ul>
+                        <li class="nav-item"><a href="#quem-somos" class="nav-link">Quem somos</a></li>
+                        <li class="nav-item"><a href="#nos-pets" class="nav-link">Nossos Pets</a></li>
+                        <li class="nav-item"><a href="#mural-pet" class="nav-link">Mural Pet</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-resocial" id="nav-resocial">
+                    <ul>
+                        <li><a href="https://www.instagram.com/lacosdejade_/?igsh=MTBvanpjYmk5eXR3dw%3D%3D" target="_blank" rel="noopener noreferrer"><img src="img/logo instagram.png" alt="logo instagram" width="35px"></a></li>
+                        <li><a href="https://wa.me/554891662834" target="_blank" rel="noopener noreferrer"><img src="img/logo whats.png" alt="logo whatszap" width="35px"></a></li>
+                        <li><a href="https://www.tiktok.com/@jadeecacau?_t=8l2YPWgpOYX&_r=1" target="_blank" rel="noopener noreferrer"><img src="img/tiktok.png" alt="logo tiktok" width="35px"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--fim barra de menu-->
+
+    <main>
+        <div class="container">
+            <div class="banner">
+                <div class="banner-text">
+                    <div>
+                    <h1>Acessórios para o seu Pet!</h1>
+                </div>
+                <div>
+                    <p><b>Preços especiais para Pet Shops!</b></p>
+                </div>
+                <div>
+                    <button type="button">Solicite nosso Catálogo</button>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+<!--fim banner-->
+
+    
+<main>
+    <div class="quem-somos">
+            <div class="nossos-laços" id="quem-somos">
+              <div class="container" id="cont-car">
+                    <div class="carou-text">
+                        <h1><b>Quem somos</b></h1>
+                        <p class="text-info recuo"> A Laços de Jade é uma empresa no ramo Pet, e que levamos 
+                            como principal propósito o conforto dos nossos pets, e ao
+                            mesmo tempo a estética! Como somos fã número um dos 
+                            doguinhos, juntamos o útil ao agradável e criamos a 
+                            Laços de Jade.</p>
+                            <p class="text-info recuo">Produzimos laços, bandanas, gravatas e colarinhos 
+                                que são super confortáveis e não machucam o pet, 
+                                por serem pensados em cada detalhe e com produtos 
+                                de qualidade!</p>
+                    </div>
+                
+                    <div class="carousel">
+                        <div class="carousel-images">
+                        <img src="img/galeria/laço1.jpeg" alt="Imagem 1">
+                        <img src="img/galeria/laço2.jpeg" alt="Imagem 2">
+                        <img src="img/galeria/laço4.jpeg" alt="Imagem 3">
+                        <img src="img/galeria/laço4.jpeg" alt="Imagem 4">
+                        </div>
+                        <button class="prev" onclick="prevImage()">&#10094;</button>
+                        <button class="next" onclick="nextImage()">&#10095;</button>
+                    </div>
+                </div>     
+                  
+    </div>
+</main>
+
+<!--fim quem somos-->
+
+
+<main class="sobre">
+               <div class="nos-pets">
+                    <h1>Nossas Pets</h1>
+               </div> 
+    <div class="container" id="nos-pets">
+
+        <div class="sobre-jade">
+            <div class="img-jade">
+                <img src="img/jade capa.jpg" alt="imagem cachorrinha jade" width="400px" height="400px">
+            </div>
+
+            <div class="jade-text">
+                <h1>Olá, eu sou a Jade!</h1>
+                    <P>Diretora e inspiração 
+                        para a Laços de Jade! Sou mistura de pinscher 
+                        com poodle e para quem acha que sou uma terrorista,
+                        pera ae! Eu sou a calmaria da casa.
+                        Amo brincar com meus brinquedos, porém meus
+                        humanos tem que brincar comigo ou a Cacau quando
+                        está com vontade e não quer me morder! Kkk Adoro 
+                        passear de carro e fico maluquinha quando ouço a 
+                        palavra "passear", mas o passeio tem que ser de 
+                        carro mesmo, porque magoa quando entendo que é a pé!!"</P>
+            </div>
+        </div>
+    
+        <div class="sobre-cacau">
+            <div class="img-cacau">
+                <img src="img/cacau capa.jpg" alt="imagem cachorrinha cacau"  width="400px" height="400px">
+            </div>
+
+            <div class="cacau-text">
+                <h1> Olá, eu sou a Cacau!</h1>
+                    <P> CEO da empresa Laços de Jade 
+                        e irmã da Jade! Ao contrário da Jade, eu sou a tempestade 
+                        e a terrorista da casa. Adoro uma bagunça e aprontar o 
+                        que não devia é comigo mesma! Aliás, já até ensinei coisa 
+                        errada para  minha irmã kkk O que mais gosto de fazer é 
+                        latir para qualquer barulho que ouvir, porque na minha 
+                        cabeça, sou a protetora da casa! E o que não gosto é que
+                        mexam comigo quando estou com sono, daí já é motivo para
+                        mostrar meus dentinhos tortinhos.
+                        Quando estou com fome, começo a empurrar meu pote até 
+                        algum humano vir colocar comida para mim, porque eu que mando!</P>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+<main class="galeria" id="mural-pet">
+    <div><h1><b>Mural Pet</b></h1></div>
+                <div class="container">
+                    <div class="gallery">
+                        <a href="img/galeria pet/1.jpg.jpeg"data-lightbox="models>" data-title="Jade">
+                            <img src="img/galeria pet/1.jpg.jpeg" alt="">
+                        </a>
+
+                        <a href="img/galeria pet/2.jpg.jpeg"data-lightbox="models>" data-title="Cacau">
+                            <img src="img/galeria pet/2.jpg.jpeg" alt="">
+                        </a>
+
+                        <a href="img/galeria pet/3.jpg.jpeg"data-lightbox="models>" data-title="Ratinha">
+                            <img src="img/galeria pet/3.jpg.jpeg" alt="">
+                        </a>
+
+                        <a href="img/galeria pet/4.jpg.jpeg"data-lightbox="models>" data-title="Chocolate">
+                            <img src="img/galeria pet/4.jpg.jpeg" alt="">
+                        </a>
+
+                        <a href="img/galeria pet/5.jpg.jpeg"data-lightbox="models>" data-title="Milka">
+                            <img src="img/galeria pet/5.jpg.jpeg" alt="">
+                        </a>
+
+                        <a href="img/galeria pet/6.jpg.jpeg"data-lightbox="models>" data-title="Caption6">
+                            <img src="img/galeria pet/6.jpg.jpeg" alt="">
+                        </a>
+
+                        <a href="img/galeria pet/7.jpg.jpeg"data-lightbox="models>" data-title="Cacau">
+                            <img src="img/galeria pet/7.jpg.jpeg" alt="">
+                        </a>
+
+                        <a href="img/galeria pet/8.jpg.jpeg"data-lightbox="models>" data-title="jade">
+                            <img src="img/galeria pet/8.jpg.jpeg" alt="">
+                        </a>
+
+                        <a href="img/galeria pet/9.jpg.jpeg"data-lightbox="models>" data-title="Ratinha e Zara">
+                            <img src="img/galeria pet/9.jpg.jpeg" alt="">
+                        </a>
+
+                        <a href="img/galeria pet/10.jpg.jpeg"data-lightbox="models>" data-title="Zara">
+                            <img src="img/galeria pet/10.jpg.jpeg" alt="">
+                        </a>
+                    
+                    </div>
+                </div>       
+</main>
+
+
+<main class="footer">
+    <footer>
+        <div class="container">
+        <div class="foo-img">
+            <img src="img/logo barra.png" alt="" width="200px" height="50px">
+        </div>
+        <div class="foo-reds">
+            <ul>
+                <li><a href="https://www.instagram.com/lacosdejade_/?igsh=MTBvanpjYmk5eXR3dw%3D%3D" target="_blank" rel="noopener noreferrer"><img src="img/logo instagram.png" alt="logo instagram" width="35px"></a></li>
+                <li><a href="https://wa.me/554891662834" target="_blank" rel="noopener noreferrer"><img src="img/logo whats.png" alt="logo whatszap" width="35px"></a></li>
+                <li><a href="https://www.tiktok.com/@jadeecacau?_t=8l2YPWgpOYX&_r=1" target="_blank" rel="noopener noreferrer"><img src="img/tiktok.png" alt="logo tiktok" width="35px"></a></li>
+            </ul>
+        </div>
+    </div>
+    </footer>
+</mnav>
+    <script src="js/script.js"></script>
+    <script src="js/lightbox-plus-jquery.js"></script>
+</body>
+</html>

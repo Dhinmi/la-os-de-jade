@@ -1,0 +1,158 @@
+@media screen and (max-width: 730px) {
+    .nav-bar{
+        padding: 1rem 1.5rem;
+    }
+    .nav-item {
+        display: none;
+    }
+
+    .nav-list ul {
+        flex-direction: column;
+        margin-left: -11.2rem;
+    }
+
+    .nav-resocial ul {
+        display: flex;
+        margin-left: -13.5rem;
+      }
+
+    .nav-resocial ul {
+      display: none;
+    }
+   
+    .mobile-menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .nav-resocial ul {
+        display: flex;
+        padding: 1rem 2rem;
+    }
+
+    .open {
+        display: block;
+    }
+
+    /* banner*/
+
+    .banner .banner-text {
+        display: block;
+
+        }
+
+        .banner .banner-text {
+            height: 50%;
+            width: 50%;
+            transform: translate(35%, 80%);
+            
+          }
+          
+          
+          .container .banner-text h1{
+            font-weight:2;
+          font-size: 3.5rem;
+          transform: translate(-20%, -80%);
+          }
+          
+          .container .banner-text button {
+            font-size: 1rem;
+           transform: translate(-20%, -450%);
+          }
+
+          .container .banner-text p{
+          transform: translate(-250%, 350%);
+          
+
+          }
+          
+          
+        
+     
+
+        /*carosel*/
+
+        .nossos-laços .container {
+            flex-direction: column;
+        }
+
+        .quem-somos h1 {
+           white-space: nowrap;
+           font-size: 2rem;
+           margin-left: 4.5rem;
+           margin-top: -3rem;
+        }
+
+        .container .carou-text {
+            width: 21rem;
+            font-size: 1.3rem;
+        }
+
+        .container .carousel {
+            width: 100%;
+        }
+
+        /*nossos pets*/
+
+        .sobre .container {
+            flex-direction: column;
+        }
+
+        .sobre .nos-pets {
+            transform: translate(25%, 20%);
+        }
+
+        .container .sobre-jade {
+            align-items: center;
+            width: 95%;
+
+        }
+        .sobre .img-jade img {
+            display: flex;
+            align-items: center;
+            width: 70%;
+            height: 100%;
+            transform: translate(21%, -2%);
+        }
+
+        
+
+        .sobre .jade-text {
+            width: 22rem;
+            margin-left: 2rem;
+        }
+
+        .container .sobre-cacau {
+            width: 95%;
+        }
+
+        .sobre .img-cacau img {
+            display: flex;
+            align-items: center;
+            width: 70%;
+            height: 100%;
+            transform: translate(21%, -2%);
+        }
+
+        .container .cacau-text {
+            width: 22rem;
+        }
+
+        /*galeria*/
+
+        .galeria h1 {
+            transform: translate(35%, -10%);
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(102px, 1fr));
+          
+           }
+
+}
