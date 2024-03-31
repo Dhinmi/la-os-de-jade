@@ -1,4 +1,161 @@
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 930px) {
+
+   
+    
+    .nav-bar{
+        padding: .5rem 1rem;
+    }
+    .nav-item {
+        display: none;
+    }
+
+    .nav-list ul {
+        flex-direction: column;
+        margin-left: 4.2rem;
+    }
+
+    .nav-resocial ul {
+        display: flex;
+        margin-left: 2rem;
+      }
+
+    .nav-resocial ul {
+      display: none;
+    }
+   
+    .mobile-menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .nav-resocial ul {
+        display: flex;
+        padding: 1rem 2rem;
+    }
+
+    .open {
+        display: block;
+    }
+
+    /* banner*/
+
+    .banner .banner-text {
+        padding-top: 10rem;
+        padding-left: 10rem;
+      }
+          
+          .container .banner-text h1{
+            -webkit-text-stroke: 2px #791416;
+            white-space: nowrap;
+          font-size: 33px;
+          }
+          
+          .container .banner-text button {
+            color: aliceblue;
+           margin-left: 100px;
+           margin-top: 15px;
+            font-size: 15px;
+          }
+
+          .container .banner-text p{
+            font-size: 20px;
+            margin-left: 38px;
+          }
+          
+          
+        
+     
+
+        /*carosel*/
+
+        .nossos-laços .container {
+            flex-direction: column;
+        }
+
+        .quem-somos h1 {
+           white-space: nowrap;
+           font-size: 2rem;
+           margin-left: 19rem;
+           margin-top: -3rem;
+        }
+
+        .container .carou-text {
+            width: 50rem;
+            font-size: 1.3rem;
+        }
+
+        .container .carousel {
+            width: 60%;
+        }
+
+        /*nossos pets*/
+
+        .nossas h1 {
+        margin: 1.5rem;
+       }
+
+        .sobre .nos-pets {
+            transform: translate(25%, 20%);
+        }
+
+        .container .sobre-jade {
+            align-items: center;
+            width: 100%;
+
+        }
+        .sobre .img-jade img {
+            display: flex;
+            align-items: center;
+            width: 70%;
+            height: 100%;
+            transform: translate(21%, -2%);
+        }
+
+        
+
+        .sobre .jade-text {
+            width: 24.05rem;
+        }
+
+        .container .sobre-cacau {
+            width: 100%;
+        }
+
+        .sobre .img-cacau img {
+            display: flex;
+            align-items: center;
+            width: 70%;
+            height: 100%;
+            transform: translate(21%, -2%);
+        }
+
+        .container .cacau-text {
+            width: 25rem;
+        }
+
+        /*galeria*/
+
+        .galeria h1 {
+            transform: translate(35%, -10%);
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(102px, 1fr));
+          
+           }
+
+}
+
+
+
+
+@media screen and (max-width: 500px) {
 
    
     
@@ -45,14 +202,14 @@
     /* banner*/
 
     .banner .banner-text {
-        padding-top: 3rem;
-        padding-left: 3.5rem;
+        padding-top: 7rem;
+        padding-left: 1.4rem;
       }
           
           .container .banner-text h1{
             -webkit-text-stroke: 2px #791416;
             white-space: nowrap;
-          font-size: 32px;
+          font-size: 33px;
           }
           
           .container .banner-text button {
