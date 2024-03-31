@@ -1,6 +1,9 @@
 @media screen and (max-width: 730px) {
+
+   
+    
     .nav-bar{
-        padding: 1rem 1.5rem;
+        padding: .5rem 1rem;
     }
     .nav-item {
         display: none;
@@ -42,33 +45,26 @@
     /* banner*/
 
     .banner .banner-text {
-        display: block;
-
-        }
-
-        .banner .banner-text {
-            height: 50%;
-            width: 50%;
-            transform: translate(35%, 80%);
-            
-          }
-          
+        padding-top: 3rem;
+        padding-left: 3.5rem;
+      }
           
           .container .banner-text h1{
-            font-weight:2;
-          font-size: 3.5rem;
-          transform: translate(-20%, -80%);
+            -webkit-text-stroke: 2px #791416;
+            white-space: nowrap;
+          font-size: 32px;
           }
           
           .container .banner-text button {
-            font-size: 1rem;
-           transform: translate(-20%, -450%);
+            color: aliceblue;
+           margin-left: 100px;
+           margin-top: 15px;
+            font-size: 15px;
           }
 
           .container .banner-text p{
-          transform: translate(-250%, 350%);
-          
-
+            font-size: 20px;
+            margin-left: 38px;
           }
           
           
